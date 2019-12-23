@@ -6,3 +6,5 @@ postman_tests:
     image: postman/newman_alpine33
     script:
         - newman --version
+
+runs-on: self-hosted
